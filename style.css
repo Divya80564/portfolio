@@ -1,0 +1,36 @@
+body{
+    background-image : url('bgi.jpg');
+    background-repeat : no-repeat ;
+    background-attachment : fixed ;
+    background-position: center;
+    background-size:cover;
+    
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.text{
+
+    background-image:url('ni.jpeg') ;
+    
+    flex:1;
+}
+.image{
+   
+    text-align:right;
+}
+h1{
+   
+    color:rgb(255, 0, 157);
+}
+h2{
+    color: aqua;
+}
+img{
+    border-radius: 50%;
+    max-width: 40%;
+    max-height: 40%
+        
+}
