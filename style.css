@@ -4,22 +4,17 @@ body{
     background-attachment : fixed ;
     background-position: center;
     background-size:cover;
-    
-}
-.container{
     display:flex;
     justify-content:space-between;
-    
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+
 }
 .text{
-
+    width: 30%;
     background-image:url('ni.jpeg') ;
-    
-    flex:1;
-}
-.image{
-   
-    text-align:right;
+    padding: 20px;
 }
 h1{
    
@@ -28,9 +23,22 @@ h1{
 h2{
     color: aqua;
 }
-img{
-    border-radius: 50%;
-    max-width: 40%;
-    max-height: 40%
-        
+.hi video{
+    width:60%;
+    text-align:right;
+}
+.media-wrapper{
+    position: relative;
+    width: 100%;
+}
+video,img{
+    width:100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#video image{
+    display: none;
 }
